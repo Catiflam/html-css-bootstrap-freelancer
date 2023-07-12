@@ -13,42 +13,12 @@
 }
 #about {
 	background-color: #1abc9c;
+	color: white;
 }
 
-.box-a {
-	background-color: brown;
-	text-align: center;
-	line-height: 200px;
-}
-
-.box-b {
-	background-color: green;
-	line-height: 200px;
-	text-align: center;
-}
-
-.box-c {
-	background-color: black;
-	line-height: 200px;
-	text-align: center;
-}
-
-.box-d {
-	background-color: rgb(12, 207, 246);
-	line-height: 200px;
-	text-align: center;
-}
-
-.box-e {
-	background-color: blue;
-	line-height: 200px;
-	text-align: center;
-}
-
-.box-f {
-	background-color: rgb(234, 197, 197);
-	line-height: 200px;
-	text-align: center;
+.bar {
+	height: 4px;
+	border-radius: 5px;
 }
 
 #top-foot {
@@ -58,4 +28,21 @@
 
 #bottom-foot {
 	background-color: #2c3e50;
+	color: white;
+	height: 100px;
+}
+
+.textarea .form-control {
+	height: 200px;
+}
+
+.form-control {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.btn-success {
+	width: 60px;
+	display: block;
 }
